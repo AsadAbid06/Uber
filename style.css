@@ -1,0 +1,174 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  /* Background Color*/
+  --bg-danger: #f63440;
+  --bg-white: #fff;
+  --bg-light-white: #f5f5f5;
+  
+  /* Text Color */
+  --primary-font: "Poppins", sans-serif;
+  --text-white: #fff;
+  --text-black: #121212;
+  --text-danger: #f63440;
+  --text-gray: #aaa;
+  --text-darl-gray: #777;
+}
+
+body{
+  font-family:var(--primary-font);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 0.5rem;
+  background: var(--bg-white);
+  color: var(--text-black);
+  overflow-x: hidden;
+}
+
+/* Navbar CSS */
+
+.img{
+  vertical-align: inherit;
+}
+
+.img-fluid {
+  max-width: 100px;
+  height: 35px;
+}
+
+#header .navbar-nav .nav-item .nav-link{
+  color: var(--text-white);
+}
+
+#header .navbar-nav .nav-item .nav-link:hover{
+  background-color:#777;
+  border-radius: 10px;
+}
+
+.dropdown-item{
+  color: var(--text-white);
+}
+
+
+.btn-outline-success {
+  text-decoration: none;
+  background-color: var(--bg-light-white);
+  color: var(--text-black);
+  font-size: small;
+  border-radius: 1.25rem;
+}
+
+.nav-side{
+  color: var(--text-white);
+  margin-right: 20PX;
+  font-size: smaller;
+}
+
+
+/* Showcase */
+
+.img_sec{
+  background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_2258,h_1270/v1613521458/assets/50/5688e1-c494-47b9-9e9a-e13d45de5eb8/original/Earner_Home_bg_tablet.png);
+  height: 140vh;
+  background-size: cover;
+  padding: 50px;
+}
+
+.h1 {
+  font-size: 2.85rem;
+  padding-top: 40px;
+}
+
+.hover-underline-animation{
+  display: inline-block;
+  position: relative;
+  color: #000000;
+  border-bottom: 1px solid lightgrey;
+}
+
+.hover-underline-animation:after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #000000;
+transform-origin: bottom left;
+transition: transform 0.25s ease-out;
+}
+
+.my_tabs > .nav-link {
+  color: black;
+  /* background-color: #000000 !important; */
+  margin-left: 30px;
+}
+
+.my_tabs > .nav-link.active{
+  background-color: rgb(253, 250, 250) !important;
+  color: black;
+  border-bottom: 2px solid black;
+  border-radius: 0px;
+  transition: 0.8s;
+} 
+
+/* Buisness */
+
+.img_bui{
+  background-image: url(../Uber/img/bg2.jpg);
+  background-size: cover;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: medium;
+  line-height: 1.5rem;
+}
+
+.undl{
+  margin-top: 25px;
+}
+
+
+
+.header_1 {
+  display: none;
+}
+.header_2 {
+  display: block;
+}
+
+.bnt_1{
+  display: block;
+}
+.btn_2{
+  display: none;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
